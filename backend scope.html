@@ -1,0 +1,79 @@
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Backend model validation scope.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+				<h2>Backend model validation scope</h2>
+				
+				<p>
+				   <small>Model Risk Management @ Lending Club</small>
+				</p>
+				</section>
+				
+				<section>
+				<h2>About Github Wiki</h2>
+				<p class="fragment">Github wiki is a <span class="fragment highlight-red">Repository</span></p>
+                <p class="fragment">You could clone it to local, edit it offline, and commit the changes, etc.</p>
+				</section>
+					
+				<section id="fragments">
+				<h2>Benefit of using Github Wiki</h2>
+					<ul>
+						<li class="fragment">Pretty code</li>
+						<li class="fragment">Collaboration</li>
+						<li class="fragment">Version control</li>
+						<li class="fragment">Rapid refresh</li>
+						<li class="fragment">Image automation</li>
+						<li class="fragment">PDF export like a Pro!</li>
+					</ul>	
+				</section>
+				
+				<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
+						<h2>... Fancy!</h2>
+				</section>
+				
+					
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
